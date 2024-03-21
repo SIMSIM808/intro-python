@@ -15,9 +15,11 @@
 # 1. In your own words, describe what the difference
 # between a function arguement and a function parameter.
 # Write your response using complete sentences.
-
+#function parameters are the names listed in the function definition 
 # 2. In your own words, describe what each of the following errors means.
 # Write your response using complete sentences.
+
+i feel as though that its a system probelm if you seem thoses errors 
 
 # syntax error
 # type error
@@ -25,15 +27,16 @@
 
 # 3. What function would I use if I wanted to convert an integer data type into 
 # a string data type?
-
+str()
 # 4. What function would I use if I wanted to change a float data type into a 
 # an integer data type?
-
+you could use int()
 # 5. Describe three (3) Variable naming rules. Write your response in complete sentences. 
-
+a varible name cannot start with a digit , If the name you choose consists of only one word, spell that word in all lowercase letters ,
 # 6. Name the operator family each of these symbols are a part of 
 # and describe how each of these sybmols are used. Write your response
 # useing complete sentences. 
+ arithmetic operators (+, -, *, /), relational operators (>, <, ==), logical operators (&&, ||, !), assignment operators (=)
 
 #symbols
 # = 
@@ -50,13 +53,15 @@
 # if the driver is going over 70mph, alert the driver to shift back to gear 1.
 # the client would like you to pass in the speed that the user is going as an argument. 
 # Please provide three (3) clues/ keywords and explain why you chose them to get full credit.
+a speedmotor would be the correct answer 
+
 
 # 8. You have been hired as an engineer to develop a fitness meal plan program. 
 # your function should take in two (2) arguements; the day of the week, and the time of the day.
 # depending on the time of the day; either morning or afternoon, the meal plan will change. 
 # the client has provided you with the following meal plan information
 # Please provide three (3) clues/ keywords and explain why you chose them to get full credit.
-
+2 or 3 times a week 
 # monday morning= 2 eggs and an apple
 # monday afternoon= bbq grilled chicken and broccoli
 
@@ -78,17 +83,19 @@
 # sunday morning = oatmeal
 # sunday night = steak and spinach
 
-# 9. You have been hired as an enineer to develop a school to develop an academic honors system.
-# the client would like to check if the user has gotten above an 85% overall grade or has
-# has accomplished passing the SAT. The client would like you to pass this information in as
-# arguements. If either of these situations are true the student has made the academic honors list
-# if only passing the SAT is true, congratulate the user but inform them they did not make the list.
-# if they only scored above 85%, congratulate the user but inform them they did not make the list.
-# if none of the conditions are met, inform them to continue studying and try again next semester. 
-# Please provide three (3) clues/ keywords and explain why you chose them to get full credit.
+
+
+
+
+# 9. between 31 and 34 
+
+
+
 
 # 10. Create a function that will check the temperature outside. If the user enters
 # a number above 60 degrees it is warm outside, if the enter a number above 80 degrees it is hot outside.
 # if the user enters a number below 50 degrees it is cold outside. and if the tempeature is above 50 degrees,
 # tell the user it's not warm but it's also not too cold. 
 # Please provide three (3) clues/ keywords and explain why you chose them to get full credit.
+
+def fahrenheit_to_celsius(fahrenheit): celsius = (fahrenheit - 32) * 5/9 return celsius
